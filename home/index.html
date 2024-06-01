@@ -9,11 +9,157 @@
   <link href="https://rb.gy/4zrsqz" rel="stylesheet">
   <title>Travel Journal</title>
 </head>
+
 <body>
-  <p class="font-Montserrat text-xl">
-    Hello World!
-  </p>
-  <div class="w-64 h-64 bg-primary">
-  </div>
+  <nav></nav>
+  <div id="tab-bar"></div>
+  <section class="w-full h-screen">
+    <div id="home">
+      <div class="w-full h-3/4">
+        <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
+          <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name=""
+            id="">
+          <button class="w-28 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white">Search</button>
+        </div>
+        <div class="w-full h-ull">
+          <img src="../img/sanFrancisco.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="p-20 flex flex-row" id="recommendations">
+      <div class="Card">
+        <!--Card: Norway-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Norway</p>
+            <p class="text-white text-md px-4">Northern Lights (Aurora Borealis)</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Bali-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-bali bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Bali</p>
+            <p class="text-white text-md px-4">Over 20,000 temples</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Chicago-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-chicago bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Chicago</p>
+            <p class="text-white text-md px-4">Willis Tower</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Europe-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-europe bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Europe</p>
+            <p class="text-white text-md px-4">50 countries</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Iceland-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-iceland bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Iceland</p>
+            <p class="text-white text-md px-4">Blue Lagoon</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: LA-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-LA bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Los Angeles</p>
+            <p class="text-white text-md px-4">Hollywood</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Miami-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-miami bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Miami</p>
+            <p class="text-white text-md px-4">Cuban culture</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: New York-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-LA bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">New York</p>
+            <p class="text-white text-md px-4">Statue of Liberty</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: San Francisco-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-sanFranciscoDesktop bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">San Francisco</p>
+            <p class="text-white text-md px-4">Golden Gate Bridge</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Seattle-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Seattle</p>
+            <p class="text-white text-md px-4">Starbucks store</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Switzerland-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Switzerland</p>
+            <p class="text-white text-md px-4">High standard of living</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Sydney-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-sydney bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Sydney</p>
+            <p class="text-white text-md px-4">Opera House</p>
+          </div>
+        </div>
+      </div>
+      <div class="Card">
+        <!--Card: Yosemite-->
+        <div class="w-48 h-64 shadow-md rounded-lg">
+          <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+            <p class="text-white text-bold text-xl px-4 py-2">Yosemite</p>
+            <p class="text-white text-md px-4">Half Dome and El Capitan.</p>
+          </div>
+        </div>
+      </div>
+      <div id="featured-rentals"></div>
+      <footer></footer>
+  </section>
 </body>
+
 </html>
