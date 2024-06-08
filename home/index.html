@@ -11,36 +11,23 @@
   <title>Travel Journal</title>
 </head>
 
-<body class="font-Montserrat">
-  <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between lg:z-10 border-b-4 lg:fixed">
+<body class="font-Montserrat dark:bg-gray-900">
+  <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between lg:z-10 border-b-4 lg:fixed dark:bg-gray-800">
     <div class="w-auto h-auto">
-      <p class="text-xl text-primary font-black">Travel App</p>
+      <p class="text-xl text-primary font-black dark:text-white">Travel App</p>
     </div>
     <div class="flex space-x-8">
-      <a class="font-bold text-primary text-base" href="#home">Home</a>
-      <a class="font-bold text-primary text-base" href="#recommendations">Recommendations</a>
-      <a class="font-bold text-primary text-base" href="#featured-rentals">Featured rentals</a>
-      <a class="font-bold text-primary text-base" href="#faqs">FAQs</a>
+      <a class="font-bold text-primary text-base dark:text-white" href="#home">Home</a>
+      <a class="font-bold text-primary text-base dark:text-white" href="#recommendations">Recommendations</a>
+      <a class="font-bold text-primary text-base dark:text-white" href="#featured-rentals">Featured rentals</a>
+      <a class="font-bold text-primary text-base dark:text-white" href="#faqs">FAQs</a>
     </div>
     <div class="flex space-x-4">
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class="fill-current text-primary" fill-rule="evenodd" clip-rule="evenodd"
-          d="M8 3.99997C6.93913 3.99997 5.92172 4.4214 5.17157 5.17155C4.42143 5.92169 4 6.93911 4 7.99997C4 9.06084 4.42143 10.0783 5.17157 10.8284C5.92172 11.5785 6.93913 12 8 12C9.06087 12 10.0783 11.5785 10.8284 10.8284C11.5786 10.0783 12 9.06084 12 7.99997C12 6.93911 11.5786 5.92169 10.8284 5.17155C10.0783 4.4214 9.06087 3.99997 8 3.99997ZM2 7.99997C1.99988 7.05568 2.22264 6.12468 2.65017 5.28271C3.0777 4.44074 3.69792 3.71157 4.4604 3.1545C5.22287 2.59743 6.10606 2.22819 7.03815 2.07681C7.97023 1.92543 8.92488 1.99618 9.82446 2.28332C10.724 2.57046 11.5432 3.06587 12.2152 3.72927C12.8872 4.39266 13.3931 5.20531 13.6919 6.10111C13.9906 6.9969 14.0737 7.95056 13.9343 8.88452C13.795 9.81848 13.4372 10.7064 12.89 11.476L17.707 16.293C17.8892 16.4816 17.99 16.7342 17.9877 16.9964C17.9854 17.2586 17.8802 17.5094 17.6948 17.6948C17.5094 17.8802 17.2586 17.9854 16.9964 17.9876C16.7342 17.9899 16.4816 17.8891 16.293 17.707L11.477 12.891C10.5794 13.5293 9.52335 13.9081 8.42468 13.9861C7.326 14.0641 6.22707 13.8381 5.2483 13.3329C4.26953 12.8278 3.44869 12.063 2.87572 11.1223C2.30276 10.1816 1.99979 9.10141 2 7.99997Z"
-          fill="#3F3F46" />
-      </svg>
-      <svg width="20" height="20" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <path class="fill-current text-primary"
-          d="M785.334 194.943c174.789 174.787 174.789 459.179 0 633.967-174.787 174.787-459.178 174.787-633.967 0-13.206-13.205-26.22-28.336-39.807-46.314a19.672 19.672 0 0 1-2.223-20.012 19.777 19.777 0 0 1 16.54-11.442c98.838-6.698 191.601-48.753 261.234-118.386C530.853 489.014 546.472 258.475 423.392 96.51a19.553 19.553 0 0 1-2.249-19.981 19.554 19.554 0 0 1 16.54-11.497c129.587-8.759 256.325 38.583 347.651 129.911z"
-          fill="#2577FF" />
-        <path
-          d="M785.334 194.943c-14.266-14.268-29.484-27.325-45.354-39.399 151.302 175.925 143.723 442.269-22.987 608.98-121.85 121.85-307.044 190.195-461.161 142.154 60.038 35.511 140.886 47.603 167.101 50.984 129.417 13.067 263.464-29.816 362.401-128.753 174.789-174.787 174.789-459.179 0-633.966z"
-          fill="#030504" />
-      </svg>
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class="fill-current text-gray-400" fill-rule="evenodd" clip-rule="evenodd"
-          d="M10 9C10.7956 9 11.5587 8.68393 12.1213 8.12132C12.6839 7.55871 13 6.79565 13 6C13 5.20435 12.6839 4.44129 12.1213 3.87868C11.5587 3.31607 10.7956 3 10 3C9.20435 3 8.44129 3.31607 7.87868 3.87868C7.31607 4.44129 7 5.20435 7 6C7 6.79565 7.31607 7.55871 7.87868 8.12132C8.44129 8.68393 9.20435 9 10 9ZM3 18C3 17.0807 3.18106 16.1705 3.53284 15.3212C3.88463 14.4719 4.40024 13.7003 5.05025 13.0503C5.70026 12.4002 6.47194 11.8846 7.32122 11.5328C8.1705 11.1811 9.08075 11 10 11C10.9193 11 11.8295 11.1811 12.6788 11.5328C13.5281 11.8846 14.2997 12.4002 14.9497 13.0503C15.5998 13.7003 16.1154 14.4719 16.4672 15.3212C16.8189 16.1705 17 17.0807 17 18H3Z"
-          fill="#3F3F46" />
-      </svg>
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="fill-current text-primary dark:text-white" fill-rule="evenodd" clip-rule="evenodd" d="M8 3.99997C6.93913 3.99997 5.92172 4.4214 5.17157 5.17155C4.42143 5.92169 4 6.93911 4 7.99997C4 9.06084 4.42143 10.0783 5.17157 10.8284C5.92172 11.5785 6.93913 12 8 12C9.06087 12 10.0783 11.5785 10.8284 10.8284C11.5786 10.0783 12 9.06084 12 7.99997C12 6.93911 11.5786 5.92169 10.8284 5.17155C10.0783 4.4214 9.06087 3.99997 8 3.99997ZM2 7.99997C1.99988 7.05568 2.22264 6.12468 2.65017 5.28271C3.0777 4.44074 3.69792 3.71157 4.4604 3.1545C5.22287 2.59743 6.10606 2.22819 7.03815 2.07681C7.97023 1.92543 8.92488 1.99618 9.82446 2.28332C10.724 2.57046 11.5432 3.06587 12.2152 3.72927C12.8872 4.39266 13.3931 5.20531 13.6919 6.10111C13.9906 6.9969 14.0737 7.95056 13.9343 8.88452C13.795 9.81848 13.4372 10.7064 12.89 11.476L17.707 16.293C17.8892 16.4816 17.99 16.7342 17.9877 16.9964C17.9854 17.2586 17.8802 17.5094 17.6948 17.6948C17.5094 17.8802 17.2586 17.9854 16.9964 17.9876C16.7342 17.9899 16.4816 17.8891 16.293 17.707L11.477 12.891C10.5794 13.5293 9.52335 13.9081 8.42468 13.9861C7.326 14.0641 6.22707 13.8381 5.2483 13.3329C4.26953 12.8278 3.44869 12.063 2.87572 11.1223C2.30276 10.1816 1.99979 9.10141 2 7.99997Z" fill="#3F3F46" /></svg>
+      <button id="toggle">
+        <svg width="20" height="20" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"><path class="fill-current text-primary dark:text-white" d="M785.334 194.943c174.789 174.787 174.789 459.179 0 633.967-174.787 174.787-459.178 174.787-633.967 0-13.206-13.205-26.22-28.336-39.807-46.314a19.672 19.672 0 0 1-2.223-20.012 19.777 19.777 0 0 1 16.54-11.442c98.838-6.698 191.601-48.753 261.234-118.386C530.853 489.014 546.472 258.475 423.392 96.51a19.553 19.553 0 0 1-2.249-19.981 19.554 19.554 0 0 1 16.54-11.497c129.587-8.759 256.325 38.583 347.651 129.911z" fill="#2577FF" /><path d="M785.334 194.943c-14.266-14.268-29.484-27.325-45.354-39.399 151.302 175.925 143.723 442.269-22.987 608.98-121.85 121.85-307.044 190.195-461.161 142.154 60.038 35.511 140.886 47.603 167.101 50.984 129.417 13.067 263.464-29.816 362.401-128.753 174.789-174.787 174.789-459.179 0-633.966z" fill="#030504" /></svg>
+      </button>
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="fill-current text-gray-400 dark:text-white" fill-rule="evenodd" clip-rule="evenodd" d="M10 9C10.7956 9 11.5587 8.68393 12.1213 8.12132C12.6839 7.55871 13 6.79565 13 6C13 5.20435 12.6839 4.44129 12.1213 3.87868C11.5587 3.31607 10.7956 3 10 3C9.20435 3 8.44129 3.31607 7.87868 3.87868C7.31607 4.44129 7 5.20435 7 6C7 6.79565 7.31607 7.55871 7.87868 8.12132C8.44129 8.68393 9.20435 9 10 9ZM3 18C3 17.0807 3.18106 16.1705 3.53284 15.3212C3.88463 14.4719 4.40024 13.7003 5.05025 13.0503C5.70026 12.4002 6.47194 11.8846 7.32122 11.5328C8.1705 11.1811 9.08075 11 10 11C10.9193 11 11.8295 11.1811 12.6788 11.5328C13.5281 11.8846 14.2997 12.4002 14.9497 13.0503C15.5998 13.7003 16.1154 14.4719 16.4672 15.3212C16.8189 16.1705 17 17.0807 17 18H3Z" fill="#3F3F46" /></svg>
     </div>
   </nav>
   <section class="w-full h-auto">
@@ -66,77 +53,75 @@
         </div>
       </div>
     </div>
-    <div class="p-6" id="recommendations">
-      <p class="text-3xl font-semibold text-primary">Recommendations</p>
-      <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+    <div class="w-full h-auto" id="recommendations">
+      <p class="text-3xl font-semibold text-primary dark:text-white pl-6 pt-6">Recommendations</p>
+      <div class="w-auto h-72 items-center mt-6 p-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
-          <div class="w-full h-2/5 bg-white rounded-b-lg">
-            <p class="text-tertiary text-bold text-xl px-4 py-2">Norway</p>
-            <p class="text-tertiary text-base px-4">Aurora Borealis</p>
+          <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-700">
+            <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Norway</p>
+            <p class="text-tertiary text-base px-4 dark:text-white">Aurora Borealis</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-bali bg-cover"></div>
-          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-800">
             <p class="text-white text-bold text-xl px-4 py-2">Bali</p>
             <p class="text-white text-base px-4">20,000 temples</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-europe bg-cover"></div>
-          <div class="w-full h-2/5 bg-white rounded-b-lg">
-            <p class="text-tertiary text-bold text-xl px-4 py-2">Europe</p>
-            <p class="text-tertiary text-base px-4">50 countries</p>
+          <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-700">
+            <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Europe</p>
+            <p class="text-tertiary text-base px-4 dark:text-white">50 countries</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-iceland bg-cover"></div>
-          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-800">
             <p class="text-white text-bold text-xl px-4 py-2">Iceland</p>
             <p class="text-white text-base px-4">Blue Lagoon</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-newyork bg-cover"></div>
-          <div class="w-full h-2/5 bg-white rounded-b-lg">
-            <p class="text-tertiary text-bold text-xl px-4 py-2">New York</p>
-            <p class="text-tertiary text-base px-4">Statue of Liberty</p>
+          <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-700">
+            <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">New York</p>
+            <p class="text-tertiary text-base px-4 dark:text-white">Statue of Liberty</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-sanfrancisco bg-cover"></div>
-          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
-            <p class="text-white text-bold text-xl px-4 py-2">
-              San Francisco
-            </p>
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-800">
+            <p class="text-white text-bold text-xl px-4 py-2">San Francisco</p>
             <p class="text-white text-base px-4">Golden Gate Bridge</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
-          <div class="w-full h-2/5 bg-white rounded-b-lg">
-            <p class="text-tertiary text-bold text-xl px-4 py-2">Seattle</p>
-            <p class="text-tertiary text-base px-4">Starbucks store</p>
+          <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-700">
+            <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Seattle</p>
+            <p class="text-tertiary text-base px-4 dark:text-white">Starbucks store</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
-          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-800">
             <p class="text-white text-bold text-xl px-4 py-2">Switzerland</p>
             <p class="text-white text-base px-4">High standard of living</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-sydney bg-cover"></div>
-          <div class="w-full h-2/5 bg-white rounded-b-lg">
-            <p class="text-tertiary text-bold text-xl px-4 py-2">Sydney</p>
-            <p class="text-tertiary text-base px-4">Opera House</p>
+          <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-700">
+            <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Sydney</p>
+            <p class="text-tertiary text-base px-4 dark:text-white">Opera House</p>
           </div>
         </div>
         <div class="card">
           <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
-          <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+          <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-800">
             <p class="text-white text-bold text-xl px-4 py-2">Yosemite</p>
             <p class="text-white text-base px-4">Half Dome</p>
           </div>
@@ -144,69 +129,55 @@
       </div>
     </div>
     <div class="w-full h-auto px-6" id="featured-rentals">
-      <p class="text-3xl text-primary font-semibold pb-6 mt-4">
-        Featured rentals
-      </p>
+      <p class="text-3xl text-primary font-semibold pb-6 mt-4 dark:text-white">Featured rentals</p>
       <div class="w-full h-full flex flex-col space-y-6 item-center justify-center">
         <div class="w-full h-96 bg-chicago bg-cover rounded-xl lg:bg-center">
           <p class="card-title lg:text-black">Chicago</p>
-          <p class="text-sm pl-8 text-black mr-24 lg:text-lg">
-            1 bedroom, 1 kitchen and 1 bathroom
-          </p>
+          <p class="text-sm pl-8 text-black mr-24 lg:text-lg">1 bedroom, 1 kitchen and 1 bathroom</p>
         </div>
         <div class="lg:flex lg:h-full lg:w-full lg:space-x-4">
           <div class="w-full h-96 bg-miami bg-cover rounded-xl mb-6">
             <p class="card-title">Miami</p>
-            <p class="text-sm pl-8 text-white mr-24 lg:text-lg">
-              1 bedroom with 2 beds, 1 kitchen and 1 bathroom
-            </p>
+            <p class="text-sm pl-8 text-white mr-24 lg:text-lg">1 bedroom with 2 beds, 1 kitchen and 1 bathroom</p>
           </div>
           <div class="w-full h-96 bg-LA bg-cover rounded-xl">
             <p class="card-title">Los Angeles</p>
-            <p class="text-sm pl-8 text-white mr-24 lg:text-lg">
-              2 bedroom, 1 kitchen, 2 bathroom and a private pool
-            </p>
+            <p class="text-sm pl-8 text-white mr-24 lg:text-lg">2 bedroom, 1 kitchen, 2 bathroom and a private pool</p>
           </div>
         </div>
       </div>
     </div>
     <div class="w-full h-full" id="faqs">
       <div class="w-full h-full px-6 flex flex-col space-y-4">
-        <p class="text-3xl text-primary font-semibold mt-6">FAQs</p>
+        <p class="text-3xl text-primary font-semibold mt-6 dark:text-white">FAQs</p>
         <div>
-          <p class="text-xl font-medium text-primary">Cancellation policy</p>
-          <p class="pt-2 text-base">
-            Must be canceled 10 days before the reservation date.
-          </p>
+          <p class="text-xl font-medium text-primary dark:text-white">Cancellation policy</p>
+          <p class="pt-2 text-base dark:text-white">Must be canceled 10 days before the reservation date.</p>
         </div>
         <div>
-          <p class="text-xl font-medium text-primary">Payment methods</p>
-          <p class="pt-2 text-base">You can pay by transfer or credit card</p>
+          <p class="text-xl font-medium text-primary dark:text-white">Payment methods</p>
+          <p class="pt-2 text-base dark:text-white">You can pay by transfer or credit card</p>
         </div>
         <div>
-          <p class="text-xl font-medium text-primary">
-            In case of damage or loss
-          </p>
-          <p class="pt-2 text-base">
+          <p class="text-xl font-medium text-primary dark:text-white">In case of damage or loss</p>
+          <p class="pt-2 text-base dark:text-white">
             A card must be registered as a guarantee. If the property is
             damaged or lost, this amount will be charged to your account.
           </p>
         </div>
         <div>
-          <p class="text-xl font-medium text-primary">Reservation time</p>
-          <p class="pt-2 text-base">
-            Reservations are only allowed with a minimum of 2 nights.
-          </p>
+          <p class="text-xl font-medium text-primary dark:text-white">Reservation time</p>
+          <p class="pt-2 text-base dark:text-white">Reservations are only allowed with a minimum of 2 nights.</p>
         </div>
       </div>
     </div>
   </section>
-  <footer class="w-full h-auto bg-gray-50 p-6 lg:w-full lg:h-auto" id="footer">
+  <footer class="w-full h-auto bg-gray-50 pl-6 pt-4 pb-12 pr-5 space-y-1 mt-8 dark:bg-gray-100" id="footer">
     <p class="text-3xl text-primary font-semibold">About us</p>
     <li class="text-base text-gray-400">Jobs</li>
     <li class="text-base text-gray-400">Terms and Conditions</li>
   </footer>
-  <div class="w-full h-8 bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden"
+  <div class="w-full h-12 bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden dark:bg-gray-800"
     id="tab-bar">
     <a href="#home">
       <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +200,7 @@
           fill="#3F3F46" />
       </svg>
     </a>
-    <button>
+    <button id="toggle-mobile">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
         class="size-6">
         <path class="fill-current text-gray-300" stroke-linecap="round" stroke-linejoin="round"
@@ -244,6 +215,16 @@
       </svg>
     </a>
   </div>
-</body>
+  <script>
+    const TOGGLE_BUTTON = document.querySelector('#toggle');
+    const TOGGLE_BUTTON_MOBILE = document.querySelector('#toggle-mobile');
 
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+    }
+
+    TOGGLE_BUTTON.addEventListener('click', toggleDarkMode);
+    TOGGLE_BUTTON_MOBILE.addEventListener('click', toggleDarkMode);
+  </script>
+</body>
 </html>

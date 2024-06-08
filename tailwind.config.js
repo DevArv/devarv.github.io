@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./home/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     extend: {
       //Background images link
